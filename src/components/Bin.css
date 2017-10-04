@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.nav-bar-home {
+    background-color: #ab2a19;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    min-width: 250px;
+}
+
+.nav-bar-shelf {
+    width: 20%;
+    background-color: #d34735;
+    font-family: 'Open Sans';
+    color: #FFF;
+    font-size: 2em;
+    padding: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-bar-bin {
+    width: 60%;
+    background-color: #ed6b5a;
+    font-family: 'Open Sans';
+    color: #FFF;
+    font-size: 2em;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.main-content-bin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.main-content-bin-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 65%;
+    /* background-color: orange; */
+    padding: 10px;
+}
+
+.main-content-bin-container img {
+    height: 400px;
+    width: 400px;
+}
+
+.main-content-input-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 45%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.main-content-input-container-text {
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.main-content-input-container input {
+    height: 70px;
+    margin-bottom: 20px;
+    /* border-radius: 20px; */
+    border: 1px solid red;
+    font-family: 'Open Sans';
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main-content-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-content-button-container-grey {
+    height: 70px;
+    width: 45%;
+    font-family: 'Open Sans';
+    font-size: 2em;
+    background-color: #D8D8D8;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-content-button-container-green {
+    height: 70px;
+    width: 45%;
+    font-family: 'Open Sans';
+    font-size: 2em;
+    background-color: #40F99B;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+input:focus {
+  opacity: .7;
+  border: 1px solid #08c;
+   box-shadow: 0px 1px 0px rgba(255,255,255,.25),inset 0px 3px 6px rgba(0,0,0,.25);
+}
